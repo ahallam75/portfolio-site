@@ -32,6 +32,8 @@ header {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  /* The margin-bottom is required so that the two buttons fade up properly with AOS */
+  margin-bottom: 2rem;
 }
 
 .header__socials {
